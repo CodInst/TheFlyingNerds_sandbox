@@ -1,0 +1,38 @@
+/* Adobe fonts import */
+@import url("https://use.typekit.net/rov1nui.css");
+/* Font for Menu - Heading - text body */
+/*
+Menu
+font-family: noka, sans-serif;
+font-weight: 500;
+font-style: normal;
+
+Heading
+font-family: microgramma-extended, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Text Body 
+font-family: lorimer-no-2, sans-serif;
+font-weight: 300;
+font-style: normal;
+
+*/
+@import url("https://use.typekit.net/hxb7twx.css"); /* Font for logo text */
+/* 
+Logo text
+font-family: astounder-squared-lc-bb, sans-serif;
+font-weight: 400;
+font-style: normal;
+*/
+
+/* grid visualisation CSS for testing */
+.container,
+.row {
+    border: 2px solid black;
+}
+
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgray;
+}
