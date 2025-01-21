@@ -1,30 +1,30 @@
 /* Adobe fonts import */
-@import url("https://use.typekit.net/rov1nui.css");
-/* Font for Menu - Heading - text body */
-/*
-Menu
-font-family: noka, sans-serif;
-font-weight: 500;
-font-style: normal;
-
-Heading
-font-family: microgramma-extended, sans-serif;
-font-weight: 700;
-font-style: normal;
-
-Text Body 
-font-family: lorimer-no-2, sans-serif;
-font-weight: 300;
-font-style: normal;
-
-*/
+@import url("https://use.typekit.net/rov1nui.css");/* Font for Menu - Heading - text body */
 @import url("https://use.typekit.net/hxb7twx.css"); /* Font for logo text */
-/* 
-Logo text
-font-family: astounder-squared-lc-bb, sans-serif;
-font-weight: 400;
-font-style: normal;
-*/
+
+/* CSS Variables */
+:root {
+    --font-menufamily: "noka", sans-serif;
+    --font-menuweight: 500;
+    --font-menustyle: normal;
+    --font-headerfamily: "microgramma-extended", sans-serif;
+    --font-headerweight: 700;
+    --font-headerstyle: normal;
+    --font-textfamily: "lorimer-no-2", sans-serif;
+    --font-textweight: 300;
+    --font-textstyle: normal;
+    --font-logofamily: "astounder-squared-lc-bb", sans-serif;
+    --font-logoweight: 400;
+    --font-logostyle: normal;
+    --font-menu: var(--font-menufamily) var(--font-menuweight) var(--font-menustyle);
+    --font-header: var(--font-headerfamily) var(--font-headerweight) var(--font-headerstyle);
+    --font-text: var(--font-textfamily) var(--font-textweight) var(--font-textstyle);
+    --font-logo: var(--font-logofamily) var(--font-logoweight) var(--font-logostyle);
+    --bodytext-color: #393e42;
+    --menutext-color: #ffffff;
+    --sectionbackground-color: #eef1f3;
+    --menufooterbackground-color:#5c6474;
+    }
 
 /* grid visualisation CSS for testing */
 .container,
