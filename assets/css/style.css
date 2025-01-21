@@ -1,27 +1,36 @@
 /* Adobe fonts import */
 @import url("https://use.typekit.net/rov1nui.css");/* Font for Menu - Heading - text body */
 @import url("https://use.typekit.net/hxb7twx.css"); /* Font for logo text */
+@import url("https://p.typekit.net/p.css?s=1&k=rov1nui&ht=tk&f=31506.31507.31508.42728.42729.42734.42735.49182.49183&a=5125658&app=typekit&e=css");
+@import url("https://p.typekit.net/p.css?s=1&k=hxb7twx&ht=tk&f=34216.34217&a=5125658&app=typekit&e=css");
 
 /* CSS Variables */
 :root {
+    /* Noka Font */
     --font-menufamily: "noka", sans-serif;
     --font-menuweight: 500;
     --font-menustyle: normal;
+     /* Microgramma Font */
     --font-headerfamily: "microgramma-extended", sans-serif;
     --font-headerweight: 700;
     --font-headerstyle: normal;
+     /* Lorimer Font */
     --font-textfamily: "lorimer-no-2", sans-serif;
     --font-textweight: 300;
     --font-textstyle: normal;
+    /* Astounder Font */
     --font-logofamily: "astounder-squared-lc-bb", sans-serif;
     --font-logoweight: 400;
     --font-logostyle: normal;
+    /* Compounded Font */
     --font-menu: var(--font-menufamily) var(--font-menuweight) var(--font-menustyle);
     --font-header: var(--font-headerfamily) var(--font-headerweight) var(--font-headerstyle);
     --font-text: var(--font-textfamily) var(--font-textweight) var(--font-textstyle);
     --font-logo: var(--font-logofamily) var(--font-logoweight) var(--font-logostyle);
+    /* Color Font */
     --bodytext-color: #393e42;
-    --menutext-color: #ffffff;
+    --menufootertext-color: #ffffff;
+    /* background Color */
     --sectionbackground-color: #eef1f3;
     --menufooterbackground-color:#5c6474;
     }
@@ -35,4 +44,24 @@
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
+}
+
+/* Background color darkgrey & White Text for Menu and Footer */
+.menufooter {
+    background-color: var(--menufooterbackground-color);
+    color: var(--menufootertext-color)
+}
+
+/* Body text */
+.bodytext {
+    color: var(--bodytext-color);
+    font: var(--font-text);
+}
+
+.logotext {
+    font: var(--font-logo);
+}
+
+.sectionbackground {
+    background-color: var(--sectionbackground-color);
 }
