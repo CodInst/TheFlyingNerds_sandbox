@@ -31,12 +31,12 @@
     --bodytext-color: #393e42;
     --menufootertext-color: #ffffff;
     /* background Color */
-    --sectionbackground-color: #eef1f3;
-    --menufooterbackground-color:#5c6474;
+    --sectionbackground-color: #eef1f3; /* light grey */
+    --menufooterbackground-color:#5c6474; /*dark grey */
     }
 
 /* grid visualisation CSS for testing */
-.container,
+/*.container,
 .row {
     border: 2px solid black;
 }
@@ -44,7 +44,7 @@
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
-}
+}*/
 
 /* Background color darkgrey & White Text for Menu and Footer */
 .menufooter {
@@ -64,4 +64,10 @@
 
 .sectionbackground {
     background-color: var(--sectionbackground-color);
+}
+
+/* Navbar */
+#navbar {
+    background-color: var(--menufooterbackground-color);
+    color: var(--menufootertext-color)
 }
