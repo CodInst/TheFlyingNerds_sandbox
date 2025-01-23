@@ -31,13 +31,11 @@
     --bodytext-color: #393e42;
     --menufootertext-color: #ffffff;
     /* background Color */
-    --sectionbackground-color: #eef1f3; /* light grey */
+    --cardbackground-color: rgb(238, 241, 243, .9); /* #eef1f3  light grey */
     --menufooterbackground-color:#5c6474; /*dark grey */
     }
 
 /* Global styles */
-
-/* Body text */
 body {
     height:100%
     width: 100%;
@@ -45,18 +43,32 @@ body {
     position: relative;
 }
 
+.cardbackgroundcolor {
+    background-color: var(--cardbackground-color);
+}
+
 .bodytext {
     color: var(--bodytext-color);
     font: var(--font-text);
+}
+
+.spacingsection {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .logotext {
     font: var(--font-logo);
 }
 
-.sectionbackground {
-    background-color: var(--sectionbackground-color);
-}
+
+
+
+
+
+
+
+
 
 /* Navbar */
 #navbar {
