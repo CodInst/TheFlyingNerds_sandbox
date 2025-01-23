@@ -1,8 +1,6 @@
 /* Adobe fonts import */
-@import url("https://use.typekit.net/rov1nui.css");/* Font for Menu - Heading - text body */
+@import url("https://use.typekit.net/rov1nui.css");/* Font for Menu - Header - text body */
 @import url("https://use.typekit.net/hxb7twx.css"); /* Font for logo text */
-@import url("https://p.typekit.net/p.css?s=1&k=rov1nui&ht=tk&f=31506.31507.31508.42728.42729.42734.42735.49182.49183&a=5125658&app=typekit&e=css");
-@import url("https://p.typekit.net/p.css?s=1&k=hxb7twx&ht=tk&f=34216.34217&a=5125658&app=typekit&e=css");
 
 /* CSS Variables */
 :root {
@@ -46,12 +44,6 @@
     background-color: lightgray;
 }*/
 
-/* Background color darkgrey & White Text for Menu and Footer */
-.menufooter {
-    background-color: var(--menufooterbackground-color);
-    color: var(--menufootertext-color)
-}
-
 /* Body text */
 .bodytext {
     color: var(--bodytext-color);
@@ -69,5 +61,10 @@
 /* Navbar */
 #navbar {
     background-color: var(--menufooterbackground-color);
-    color: var(--menufootertext-color)
+    font: var(--font-menu);
+}
+
+/* Heading */
+h1 {
+    font: var(--font-header);
 }
