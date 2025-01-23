@@ -1,3 +1,5 @@
+
+
 /* Adobe fonts import */
 @import url("https://use.typekit.net/rov1nui.css");/* Font for Menu - Header - text body */
 @import url("https://use.typekit.net/hxb7twx.css"); /* Font for logo text */
@@ -33,18 +35,16 @@
     --menufooterbackground-color:#5c6474; /*dark grey */
     }
 
-/* grid visualisation CSS for testing */
-/*.container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-}*/
+/* Global styles */
 
 /* Body text */
+body {
+    height:100%
+    width: 100%;
+    background: url("../images/drone-background.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
 .bodytext {
     color: var(--bodytext-color);
     font: var(--font-text);
@@ -68,3 +68,15 @@
 h1 {
     font: var(--font-header);
 }
+
+
+/* grid visualisation CSS for testing */
+/*.container,
+.row {
+    border: 2px solid black;
+}
+
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgray;
+}*/
