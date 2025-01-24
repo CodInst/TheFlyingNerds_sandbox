@@ -57,18 +57,17 @@ body {
     margin-bottom: 2rem;
 }
 
+h1 {
+    font: var(--font-header);
+}
+
+.display-4 {
+    text-transform: uppercase;
+}
+
 .logotext {
     font: var(--font-logo);
 }
-
-
-
-
-
-
-
-
-
 
 /* Navbar */
 #navbar {
@@ -76,10 +75,6 @@ body {
     font: var(--font-menu);
 }
 
-/* Heading */
-h1 {
-    font: var(--font-header);
-}
 
 
 /* grid visualisation CSS for testing */
