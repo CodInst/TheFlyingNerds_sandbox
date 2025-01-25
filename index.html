@@ -36,7 +36,7 @@
     <nav id="navbar" class="navbar navbar-expand-md" data-bs-theme="dark">
         <div class="container-fluid justify-content-center">
             <!-- justify-content-center to center menu-->
-            <a class="navbar-brand logotext" href="#">The Flying Nerds</a>
+            <a class="navbar-brand logotext" href="../index.html">The Flying Nerds</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -47,38 +47,38 @@
                 <ul class="navbar-nav text-center">
                     <!-- text center to center the text menu-->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" aria-current="page" href="#" role="button"
+                        <a class="nav-link dropdown-toggle active" aria-current="page" href="../index.html" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">Home</a>
                         <ul class="dropdown-menu text-center">
-                            <li><a class="dropdown-item" href="#">Hardware</a></li>
-                            <li><a class="dropdown-item" href="#">Software</a></li>
+                            <li><a class="dropdown-item" href="index.html#hardware">Hardware</a></li>
+                            <li><a class="dropdown-item" href="index.html#software">Software</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" href="../ecosystem.html" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">Ecosystem</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Short history</a></li>
-                            <li><a class="dropdown-item" href="#">Use</a></li>
-                            <li><a class="dropdown-item" href="#">Law</a></li>
+                            <li><a class="dropdown-item" href="../ecosystem.html#history">Short history</a></li>
+                            <li><a class="dropdown-item" href="../ecosystem.html#use">Use</a></li>
+                            <li><a class="dropdown-item" href="../ecosystem.html#law">Law</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" href="../gallery.html" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">Gallery</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Pictures</a></li>
-                            <li><a class="dropdown-item" href="#">Videos</a></li>
+                            <li><a class="dropdown-item" href="../gallery.html#pictures">Pictures</a></li>
+                            <li><a class="dropdown-item" href="../gallery.html#videos">Videos</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Flyshop</a>
+                        <a class="nav-link" href="../flyshop.html">Flyshop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="../about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="../contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -90,7 +90,7 @@
             <!--mx-2 to give a margin on small screen on the right an dthe left-->
             <div class="col-9">
                 <h1 class="display-6 headingtext">Drone Makeup</h1>
-                <p class="display-6 sub-heading">What drones are made of</p>
+                <p class="sub-heading">What drones are made of</p>
                 <p class="my-4">Welcome to Boardwalk Games, Your Ultimate Gaming Getaway! Escape into the world of board
                     games and
                     café delights.
@@ -102,8 +102,8 @@
     <!-- Main-->
     <main>
         <!--Hardware Section -->
-        <section class="container overflow-hidden">
-            <div class="row justify-content-center boxbackgroundcolor gy-3 my-2">
+        <section id="hardware" class="container overflow-hidden">
+            <div class="row justify-content-center boxbackgroundcolor gy-3 my-2 rounded mx-2">
                 <p class="display-6 headingtext">Hardware</p>
                 <!--gy to give  gutter vertical -->
                 <div class="col-12 col-lg-6 col-xl-4">
@@ -219,8 +219,8 @@
             </div>
         </section>
         <!--Software Section -->
-        <section class="container overflow-hidden">
-            <div class="row justify-content-center boxbackgroundcolor my-2">
+        <section id="software" class="container overflow-hidden">
+            <div class="row justify-content-center boxbackgroundcolor rounded mt-2 mb-4 mx-2">
                 <p class="display-6 headingtext">Software</p>
                 <div class="col-md-10 col-lg-10 col-xl-10">
                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -259,12 +259,12 @@
     </main>
     <!-- Footer / contact section -->
     <!-- mt-auto added to push footer to the bottom of the page -->
-    <footer id="contact" class="mt-auto">
+    <footer id="footer" class="mt-auto">
         <div class="container text-center spacingsection">
             <div class="row justify-content-center">
                 <!--Text Logo & Social Network-->
                 <div class="col-lg-4 col-xl-4">
-                    <h3 class="logotext">The Flying Nerds</h3>
+                    <h3 class="headingtext">The Flying Nerds</h3>
                     <div class="social-links mt-2">
                         <a href="https://www.youtube.com/" target="_blank"
                             aria-label="Visit our YouTube Channel (opens in a new tab)" rel="noopener"><i
@@ -278,7 +278,7 @@
                 </div>
                 <!-- Useful Links / Hidding this section on tablets and smaller screens -->
                 <div class="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block col-lg-4 col-xl-4">
-                    <h3 class="display-6">Useful Links</h3>
+                    <h3 class="headingtext">Useful Links</h3>
                     <div class="extralinks mt-2">
                         <a href="https://www.iaa.ie/general-aviation/drones" target="_blank"
                             aria-label="Irish Aviation Authority (opens in a new tab)" rel="noopener">Irish Aviation
@@ -295,25 +295,14 @@
                 </div>
                 <!-- Newsletter -->
                 <div class="col-lg-4 col-xl-4">
-                    <h3 class="logotext">The Flying Nerds</h3>
-                    <div class="extralinks mt-2">
-                        <a href="https://www.iaa.ie/general-aviation/drones" target="_blank"
-                            aria-label="Irish Aviation Authority (opens in a new tab)" rel="noopener">Irish Aviation
-                            Authority</a><br>
-                        <a href="https://www.ryzerobotics.com/tello-edu" target="_blank"
-                            aria-label="Educational Drone Partner (opens in a new tab)" rel="noopener">Tello Edu</a><br>
-                        <a href="https://clover.coex.tech/en/" target="_blank"
-                            aria-label="Educational Drone Partner (opens in a new tab)" rel="noopener">COEX
-                            Clover</a><br>
-                        <a href="https://www.robolink.com/products/codrone-edu" target="_blank"
-                            aria-label="Educational Drone Partner (opens in a new tab)" rel="noopener">CoDrone
-                            EDU</a><br>
+                    <h3 class="headingtext">Newsletter</h3>
+                    <p>Stay in touch! Join our Newsletter.</p>
+                    <div class="mt-2">
+                        <input type="email" class="form-control" placeholder="Enter Email">
+                         <button type="submit" class="btn btn-primary">Subscribe</button>
                     </div>
                 </div>
-
             </div>
-
-        </div>
         </div>
     </footer>
     <!-- Bootstrap 5 Javescript -->

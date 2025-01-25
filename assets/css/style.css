@@ -1,6 +1,4 @@
-
-
-/* Adobe fonts import */
+/* fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 /* 
 Menu – Goldman
@@ -8,7 +6,6 @@ Header – Goldman
 Text – Roboto Flex
 Logo Text – Honk
 */
-
 
 /* CSS Variables */
 :root {
@@ -19,7 +16,7 @@ Logo Text – Honk
     --bodytext-color: #393e42;
     --menufootertext-color: #ffffff;
     /* background Color */
-    --boxbackground-color: rgb(200, 201, 204, .8); /* #c8c9cc grey */
+    --boxbackground-color: rgb(200, 201, 204, .9); /* #c8c9cc grey */
     --menufooterbackground-color:#1a4b82; /* dark blue */
     }
 
@@ -37,6 +34,7 @@ body {
     font-family: var(--font-logomenuheading);
     font-weight: 700;
     font-size: 1.5rem;
+    color:#EAD615;
 }
 
 #navbar .navbar-brand {
@@ -44,7 +42,7 @@ body {
 }
 
 .navbar-brand a:hover{
-    color: initial; /* Takes initial value of the property which is black in this case */
+    color: initial; /* Takes initial value of the property */
 }
 
 /* Menu Text*/
@@ -55,11 +53,11 @@ body {
 }
 
 /* Heading Text*/
-
 .headingtext {
     font-family: var(--font-logomenuheading);
     font-weight: 700;
 }
+
 
 .sub-heading {
     color: #000000;
@@ -67,6 +65,7 @@ body {
     font-weight: 700;
     font-style: italic;
     font-size: x-large;
+    line-height: 0.6;
 }
 
 .boxbackgroundcolor {
@@ -87,9 +86,6 @@ h1 {
     color: #1a4b82
 }
 
-
-
-
 /* Navbar */
 #navbar {
     background-color: var(--menufooterbackground-color);
@@ -97,32 +93,56 @@ h1 {
 }
 
 /* Footer */
-
-#contact {
+#footer {
     background-color: var(--menufooterbackground-color);
     color: var(--menufootertext-color);
     padding-bottom: 1rem;
 }
 
-#contact i {
+#footer h3 {
+    color: #EAD615;
+}
+
+/* Footer fontawesome*/
+#footer i {
     color: var(--menufootertext-color);
     font-size: 4rem;
 }
 
-#contact .social-links i {
+#footer .social-links i {
     color: var(--menufootertext-color);
 }
 
-#contact .social-links i:hover {
+#footer .social-links i:hover {
     color: #EAD615;
 }
 
-#contact .extralinks a {
+/* Footer Hyperlink*/
+#footer .extralinks a {
     color: var(--menufootertext-color);
 }
 
-#contact .extralinks a:hover {
+#footer .extralinks a:hover {
     color: #EAD615;
+}
+
+/* Small devices (576px and up) */
+@media screen and (max-width: 576px) {
+    /* Make Heading and sub-heading smaller */
+.headingtext {
+    font-family: var(--font-logomenuheading);
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.sub-heading {
+    color: #000000;
+    font-family: var(--font-textbody);
+    font-weight: 700;
+    font-style: italic;
+    font-size: large;
+    line-height: 0.6;
+}
 }
 
 
