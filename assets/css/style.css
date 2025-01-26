@@ -12,9 +12,10 @@ Logo Text – Honk
     /* Font */
     --font-logomenuheading: "Goldman", serif;
     --font-textbody: "Roboto Flex", serif;
-    /* Color Font */
+        /* Color Font */
     --bodytext-color: #393e42;
     --menufootertext-color: #ffffff;
+    --highlight-color: #EAD615;
     /* background Color */
     --boxbackground-color: rgb(200, 201, 204, .9); /* #c8c9cc grey */
     --menufooterbackground-color:#1a4b82; /* dark blue */
@@ -34,11 +35,11 @@ body {
     font-family: var(--font-logomenuheading);
     font-weight: 700;
     font-size: 1.5rem;
-    color:#EAD615;
+    color: var(--highlight-color);
 }
 
 #navbar .navbar-brand {
-    color:#EAD615;
+    color: var(--highlight-color);
 }
 
 .navbar-brand a:hover{
@@ -56,6 +57,7 @@ body {
 .headingtext {
     font-family: var(--font-logomenuheading);
     font-weight: 700;
+    font-size: 1.2rem;
 }
 
 
@@ -64,8 +66,8 @@ body {
     font-family: var(--font-textbody);
     font-weight: 700;
     font-style: italic;
-    font-size: x-large;
     line-height: 0.6;
+    font-size: 0.9rem;
 }
 
 .boxbackgroundcolor {
@@ -73,8 +75,8 @@ body {
 }
 
 .spacingsection {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 h1,
@@ -83,14 +85,46 @@ h2 {
 }
 
 h1 {
-    color: #1a4b82
+    color: var(--menufooterbackground-color);
 }
 
 /* Navbar */
 #navbar {
     background-color: var(--menufooterbackground-color);
-    font: var();
 }
+
+/* Navbar Submenu background color & submenu alignement*/
+.dropdown-menu {
+	--bs-dropdown-bg: var(--menufooterbackground-color);
+    --bs-dropdown-link-hover-bg: none;
+    --bs-dropdown-link-hover-color: var(--highlight-color);
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: var(--highlight-color);
+    }
+
+/* Navbar submenu alignement*/
+.dropdown-item {
+    text-align: center;
+}
+
+/* Form Customisation  */
+#textarea {
+    height: 15rem;
+}
+
+/* Button form, Button Return, Button book and subscribe*/
+ .custombutton-filled {
+    background-color: var(--menufooterbackground-color);
+    color: var(--menufootertext-color);
+ }
+
+ .custombutton-filled:hover {
+    background-color: var(--menufooterbackground-color);
+    color: var(--highlight-color);
+ }
+
 
 /* Footer */
 #footer {
@@ -100,7 +134,7 @@ h1 {
 }
 
 #footer h3 {
-    color: #EAD615;
+    color: var(--highlight-color);
 }
 
 /* Footer fontawesome*/
@@ -114,25 +148,27 @@ h1 {
 }
 
 #footer .social-links i:hover {
-    color: #EAD615;
+    color: var(--highlight-color);
 }
 
 /* Footer Hyperlink*/
 #footer .extralinks a {
     color: var(--menufootertext-color);
+    text-decoration: none;
 }
 
 #footer .extralinks a:hover {
-    color: #EAD615;
+    color: var(--highlight-color);
 }
 
-/* Small devices (576px and up) */
-@media screen and (max-width: 576px) {
-    /* Make Heading and sub-heading smaller */
+
+/* Small and medium devices (576px and up) */
+/* Make Heading and sub-heading smaller */
+@media screen and (min-width: 768px) {
 .headingtext {
     font-family: var(--font-logomenuheading);
     font-weight: 700;
-    font-size: x-large;
+    font-size: 2rem;
 }
 
 .sub-heading {
@@ -140,11 +176,14 @@ h1 {
     font-family: var(--font-textbody);
     font-weight: 700;
     font-style: italic;
-    font-size: large;
     line-height: 0.6;
+    font-size: 1.3rem;
+}
+/* Navbar submenu alignement*/
+.dropdown-item {
+    text-align: left;
 }
 }
-
 
 /* grid visualisation CSS for testing */
 /*.container,
