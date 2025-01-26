@@ -99,9 +99,9 @@
         <div class="container text-center spacingsection">
             <div class="row justify-content-center">
                 <!--Text Logo & Social Network-->
-                <div class="col-lg-4 col-xl-4">
+                <div class="col-lg-4 col-xl-4 mb-4">
                     <h3 class="headingtext">The Flying Nerds</h3>
-                    <div class="social-links mt-2">
+                    <div class="social-links">
                         <a href="https://www.youtube.com/" target="_blank"
                             aria-label="Visit our YouTube Channel (opens in a new tab)" rel="noopener"><i
                                 class="fa-brands fa-square-youtube"></i></a>
@@ -113,7 +113,7 @@
                     </div>
                 </div>
                 <!-- Useful Links / Hidding this section on tablets and smaller screens -->
-                <div class="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block col-lg-4 col-xl-4">
+                <div class="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block col-lg-4 col-xl-4 mb-4">
                     <h3 class="headingtext">Useful Links</h3>
                     <div class="extralinks mt-2">
                         <a href="https://www.iaa.ie/general-aviation/drones" target="_blank"
@@ -130,17 +130,50 @@
                     </div>
                 </div>
                 <!-- Newsletter -->
-                <div class="col-lg-4 col-xl-4">
+                <div class="newsletter col-lg-4 col-xl-4 mb-4">
                     <h3 class="headingtext">Newsletter</h3>
-                    <p>Stay in touch! Join our Newsletter.</p>
-                    <div class="mt-2">
-                        <input type="email" class="form-control" placeholder="Enter Email">
-                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    <p>Stay in touch!</p>
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn custombutton-filled" data-bs-toggle="modal"
+                                data-bs-target="#subscribe">
+                                Subscribe to my newsletter!
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+  <!-- Modal -->
+  <div class="modal" id="subscribe" tabindex="-1" aria-labelledby="subLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 headingtext" id="subLabel">Subscribe</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Join our newsletter for the latest updates on fly tips and drone industry insights.
+          <form class="row g-3 mt-3">
+            <div class="col-lg-6">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="col-lg-6">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control sharp-corners" id="email">
+            </div>
+            <div class="col-12 mb-4">
+              <button type="submit" class="btn custombutton-filled">Sign up!</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
     <!-- Bootstrap 5 Javescript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">

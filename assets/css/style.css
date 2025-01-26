@@ -106,7 +106,7 @@ h1 {
 
 /* Navbar submenu alignement*/
 .dropdown-item {
-    text-align: center;
+    text-align: left;
 }
 
 /* Form Customisation  */
@@ -115,16 +115,19 @@ h1 {
 }
 
 /* Button form, Button Return, Button book and subscribe*/
- .custombutton-filled {
-    background-color: var(--menufooterbackground-color);
-    color: var(--menufootertext-color);
- }
-
- .custombutton-filled:hover {
+.custombutton-filled {
+    border: 2px solid white;
     background-color: var(--menufooterbackground-color);
     color: var(--highlight-color);
- }
+    font-weight: bold;
+}
 
+.custombutton-filled:hover {
+    border: 2px solid #2980B9;
+    background-color: #2980B9;
+    color: white;
+    font-weight: bold;
+}
 
 /* Footer */
 #footer {
@@ -141,6 +144,7 @@ h1 {
 #footer i {
     color: var(--menufootertext-color);
     font-size: 4rem;
+    margin-right: 20px;
 }
 
 #footer .social-links i {
@@ -179,9 +183,22 @@ h1 {
     line-height: 0.6;
     font-size: 1.3rem;
 }
+}
+
+@media screen and (max-width: 768px) {
 /* Navbar submenu alignement*/
 .dropdown-item {
-    text-align: left;
+    text-align: center;
+}
+/* Social Links size and spacing*/
+#footer i {
+    color: var(--menufootertext-color);
+    font-size: 2rem;
+    margin-right: 10px;
+}
+/* Footer Newsletter*/
+#footer .newsletter p {
+    font-size: 0.8rem;
 }
 }
 
