@@ -26,10 +26,11 @@ Text – Roboto Flex
 body {
     height: 100%;
     width: 100%;
-    background: url("../images/background-the-flying-nerds.jpg") no-repeat center center/cover;
+    /*background: url("../images/background-the-flying-nerds.jpg") no-repeat center center/cover;*/
     background-color: #eef1f3;
     position: relative;
     font: var(--font-textbody);
+    font-size: 18px;
     color: var(--bodytext-color);
 }
 
@@ -60,6 +61,35 @@ body {
     font-size: 0.9rem;
     font-style: italic;
     line-height: 0.6;
+}
+
+/* Navbar */
+#menu {
+    background-color: var(--contrasting-color);
+}
+
+#menu .navbar-brand {
+    color: var(--highlight-color);
+}
+
+#menu .navbar-brand a:hover {
+    color: initial; /* Takes initial value of the property */
+}
+
+/* Navbar Submenu background color & submenu alignement*/
+.dropdown-menu {
+	--bs-dropdown-bg: var(--contrasting-color);
+    --bs-dropdown-link-hover-bg: none;
+    --bs-dropdown-link-hover-color: var(--highlight-color);
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: var(--highlight-color);
+}
+
+/* Navbar submenu alignement*/
+.dropdown-item * {
+    text-align: left;
 }
 /* Footer - Font, color and size */
 #footer {
@@ -96,27 +126,17 @@ body {
     color: var(--highlight-color);
 }
 
-
-/*  -----------------Other styles ----------------- */
-
-
-#navbar .navbar-brand {
-    color: var(--highlight-color);
+/* Newsletter - Font and size */
+#footer p {
+    font-size: 0.9rem;
 }
 
-.navbar-brand a:hover{
-    color: initial; /* Takes initial value of the property */
-}
-
+/* Grey Background for sections*/
 .boxbackgroundcolor {
     background-color: var(--boxbackground-color);
 }
 
-.spacingsection {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
+/*  -----------------Other styles ----------------- */
 h1,
 h2 {
     text-transform: uppercase;
@@ -126,25 +146,9 @@ h1 {
     color: var(--contrasting-color);
 }
 
-/* Navbar */
-#navbar {
-    background-color: var(--contrasting-color);
-}
-
-/* Navbar Submenu background color & submenu alignement*/
-.dropdown-menu {
-	--bs-dropdown-bg: var(--contrasting-color);
-    --bs-dropdown-link-hover-bg: none;
-    --bs-dropdown-link-hover-color: var(--highlight-color);
-}
-
-.navbar-nav {
-    --bs-nav-link-hover-color: var(--highlight-color);
-    }
-
-/* Navbar submenu alignement*/
-.dropdown-item {
-    text-align: left;
+.spacingsection {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 /* Form Customisation  */
@@ -159,14 +163,12 @@ h1 {
     color: var(--highlight-color);
     font-weight: bold;
 }
-
 .custombutton-filled:hover {
     border: 2px solid #2980B9;
     background-color: #2980B9;
     color: white;
     font-weight: bold;
 }
-
 
 /* ----------------- Screen Re-sizing ----------------------- */
 /* Medium devices (576px and up) */
@@ -190,6 +192,7 @@ h1 {
     font-style: italic;
     line-height: 0.6;
 }
+/* Footer */
 #footer i {
     color: var(--menufootertext-color);
     font-size: 4rem;
@@ -198,6 +201,14 @@ h1 {
 }
 #footer h3 {
     font-size: 1.8rem;
+}
+/* Newsletter - Font and size */
+#footer p {
+    font-size: 1rem;
+}
+/* Navbar */
+#navbar .dropdown-item {
+    text-align: center;
 }
 }
 
