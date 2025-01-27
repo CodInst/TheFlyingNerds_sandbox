@@ -88,9 +88,10 @@ body {
 }
 
 /* Navbar submenu alignement*/
-.dropdown-item * {
-    text-align: left;
+#menu .dropdown-item {
+    text-align: center;
 }
+
 /* Footer - Font, color and size */
 #footer {
     background-color: var(--contrasting-color);
@@ -156,6 +157,21 @@ h1 {
     height: 15rem;
 }
 
+#hardware .card-img-overlay {
+	padding-top: 2px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+#hardware .card-title {
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+
 /* Button form, Button Return, Button book and subscribe*/
 .custombutton-filled {
     border: 2px solid white;
@@ -192,6 +208,19 @@ h1 {
     font-style: italic;
     line-height: 0.6;
 }
+#hardware .card-img-overlay {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+#hardware .card-title {
+	font-weight: bold;
+	font-size: 1.2rem;
+}
 /* Footer */
 #footer i {
     color: var(--menufootertext-color);
@@ -207,8 +236,8 @@ h1 {
     font-size: 1rem;
 }
 /* Navbar */
-#navbar .dropdown-item {
-    text-align: center;
+#menu .dropdown-item {
+    text-align: left;
 }
 }
 
