@@ -1,18 +1,18 @@
 /* fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 /* 
+Logo Text – Goldman
 Menu – Goldman
 Header – Goldman
 Text – Roboto Flex
-Logo Text – Honk
 */
 
-/* CSS Variables */
+/*  -----------------CSS Variables ----------------- */
 :root {
     /* Font */
     --font-logomenuheading: "Goldman", serif;
     --font-textbody: "Roboto Flex", serif;
-        /* Color Font */
+    /* Color Font */
     --bodytext-color: #000000;
     --menufootertext-color: #ffffff;
     --highlight-color: #EAD615;
@@ -21,7 +21,8 @@ Logo Text – Honk
     --contrasting-color:#1a4b82; /* dark blue */
     }
 
-/* Global styles */
+/*  -----------------Global styles ----------------- */
+/* Font and Color - Body */
 body {
     height: 100%;
     width: 100%;
@@ -32,13 +33,36 @@ body {
     color: var(--bodytext-color);
 }
 
-/* Logo Text*/
+/* Font and size - Logo*/
 .logotext {
     font-family: var(--font-logomenuheading);
     font-weight: 700;
-    font-size: 1.5rem;
     color: var(--highlight-color);
 }
+
+/* Font and size - Menu*/
+.menutext {
+    font-family: var(--font-logomenuheading);
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+/* Font and size - Heading and sub-heading*/
+.headingtext {
+    font-family: var(--font-logomenuheading);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.sub-heading {
+    color: #000000;
+    font-family: var(--font-textbody);
+    font-weight: 700;
+    font-size: 0.9rem;
+    font-style: italic;
+    line-height: 0.6;
+}
+
 
 #navbar .navbar-brand {
     color: var(--highlight-color);
@@ -46,30 +70,6 @@ body {
 
 .navbar-brand a:hover{
     color: initial; /* Takes initial value of the property */
-}
-
-/* Menu Text*/
-.menutext {
-    font-family: var(--font-logomenuheading);
-    font-weight: 400;
-    font-size: 1.2rem;
-}
-
-/* Heading Text*/
-.headingtext {
-    font-family: var(--font-logomenuheading);
-    font-weight: 700;
-    font-size: 1.2rem;
-}
-
-
-.sub-heading {
-    color: #000000;
-    font-family: var(--font-textbody);
-    font-weight: 700;
-    font-style: italic;
-    line-height: 0.6;
-    font-size: 0.9rem;
 }
 
 .boxbackgroundcolor {
@@ -167,10 +167,14 @@ h1 {
     color: var(--highlight-color);
 }
 
-
-/* Small and medium devices (576px and up) */
-/* Make Heading and sub-heading smaller */
+/* ----------------- Screen Re-sizing ----------------------- */
+/* Medium devices (576px and up) */
 @media screen and (min-width: 768px) {
+/* Logo Text*/
+.logotext {
+    font-size: 1.5rem;
+}
+/* Font and size - Heading and sub-heading*/
 .headingtext {
     font-family: var(--font-logomenuheading);
     font-weight: 700;
@@ -181,9 +185,9 @@ h1 {
     color: #000000;
     font-family: var(--font-textbody);
     font-weight: 700;
+    font-size: 1.3rem;
     font-style: italic;
     line-height: 0.6;
-    font-size: 1.3rem;
 }
 }
 
@@ -203,14 +207,3 @@ h1 {
     font-size: 0.8rem;
 }
 }
-
-/* grid visualisation CSS for testing */
-/*.container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-}*/
