@@ -13,21 +13,23 @@ Logo Text – Honk
     --font-logomenuheading: "Goldman", serif;
     --font-textbody: "Roboto Flex", serif;
         /* Color Font */
-    --bodytext-color: #393e42;
+    --bodytext-color: #000000;
     --menufootertext-color: #ffffff;
     --highlight-color: #EAD615;
     /* background Color */
     --boxbackground-color: rgb(200, 201, 204, .9); /* #c8c9cc grey */
-    --menufooterbackground-color:#1a4b82; /* dark blue */
+    --contrasting-color:#1a4b82; /* dark blue */
     }
 
 /* Global styles */
 body {
     height: 100%;
     width: 100%;
-    background: url("../images/drone-background.jpg") no-repeat center center/cover;
+    background: url("../images/background-the-flying-nerds.jpg") no-repeat center center/cover;
     background-color: #eef1f3;
     position: relative;
+    font: var(--font-textbody);
+    color: var(--bodytext-color);
 }
 
 /* Logo Text*/
@@ -85,17 +87,17 @@ h2 {
 }
 
 h1 {
-    color: var(--menufooterbackground-color);
+    color: var(--contrasting-color);
 }
 
 /* Navbar */
 #navbar {
-    background-color: var(--menufooterbackground-color);
+    background-color: var(--contrasting-color);
 }
 
 /* Navbar Submenu background color & submenu alignement*/
 .dropdown-menu {
-	--bs-dropdown-bg: var(--menufooterbackground-color);
+	--bs-dropdown-bg: var(--contrasting-color);
     --bs-dropdown-link-hover-bg: none;
     --bs-dropdown-link-hover-color: var(--highlight-color);
 }
@@ -117,7 +119,7 @@ h1 {
 /* Button form, Button Return, Button book and subscribe*/
 .custombutton-filled {
     border: 2px solid white;
-    background-color: var(--menufooterbackground-color);
+    background-color: var(--contrasting-color);
     color: var(--highlight-color);
     font-weight: bold;
 }
@@ -131,7 +133,7 @@ h1 {
 
 /* Footer */
 #footer {
-    background-color: var(--menufooterbackground-color);
+    background-color: var(--contrasting-color);
     color: var(--menufootertext-color);
     padding-bottom: 1rem;
 }
