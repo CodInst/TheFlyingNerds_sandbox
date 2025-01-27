@@ -22,7 +22,7 @@ Text – Roboto Flex
     }
 
 /*  -----------------Global styles ----------------- */
-/* Font and Color - Body */
+/* Body - Font and Color */
 body {
     height: 100%;
     width: 100%;
@@ -33,27 +33,26 @@ body {
     color: var(--bodytext-color);
 }
 
-/* Font and size - Logo*/
+/* Logo - Font and size*/
 .logotext {
     font-family: var(--font-logomenuheading);
     font-weight: 700;
     color: var(--highlight-color);
 }
 
-/* Font and size - Menu*/
+/* Menu - Font and size*/
 .menutext {
     font-family: var(--font-logomenuheading);
     font-weight: 400;
     font-size: 1.1rem;
 }
 
-/* Font and size - Heading and sub-heading*/
+/* Heading and sub-heading - Font and size */
 .headingtext {
     font-family: var(--font-logomenuheading);
     font-weight: 700;
     font-size: 1.2rem;
 }
-
 .sub-heading {
     color: #000000;
     font-family: var(--font-textbody);
@@ -62,6 +61,43 @@ body {
     font-style: italic;
     line-height: 0.6;
 }
+/* Footer - Font, color and size */
+#footer {
+    background-color: var(--contrasting-color);
+    color: var(--menufootertext-color);
+    padding-bottom: 1rem;
+}
+
+#footer h3 {
+    color: var(--highlight-color);
+}
+
+#footer i {
+    color: var(--menufootertext-color);
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+#footer .social-links i {
+    color: var(--menufootertext-color);
+}
+
+#footer .social-links i:hover {
+    color: var(--highlight-color);
+}
+
+/* Footer Hyperlink*/
+#footer .extralinks a {
+    color: var(--menufootertext-color);
+    text-decoration: none;
+}
+
+#footer .extralinks a:hover {
+    color: var(--highlight-color);
+}
+
+
+/*  -----------------Other styles ----------------- */
 
 
 #navbar .navbar-brand {
@@ -131,50 +167,15 @@ h1 {
     font-weight: bold;
 }
 
-/* Footer */
-#footer {
-    background-color: var(--contrasting-color);
-    color: var(--menufootertext-color);
-    padding-bottom: 1rem;
-}
-
-#footer h3 {
-    color: var(--highlight-color);
-}
-
-/* Footer fontawesome*/
-#footer i {
-    color: var(--menufootertext-color);
-    font-size: 4rem;
-    margin-right: 20px;
-}
-
-#footer .social-links i {
-    color: var(--menufootertext-color);
-}
-
-#footer .social-links i:hover {
-    color: var(--highlight-color);
-}
-
-/* Footer Hyperlink*/
-#footer .extralinks a {
-    color: var(--menufootertext-color);
-    text-decoration: none;
-}
-
-#footer .extralinks a:hover {
-    color: var(--highlight-color);
-}
 
 /* ----------------- Screen Re-sizing ----------------------- */
 /* Medium devices (576px and up) */
 @media screen and (min-width: 768px) {
-/* Logo Text*/
+/* Logo - Font and size */
 .logotext {
     font-size: 1.5rem;
 }
-/* Font and size - Heading and sub-heading*/
+/* Heading and sub-heading - Font and size */
 .headingtext {
     font-family: var(--font-logomenuheading);
     font-weight: 700;
@@ -189,21 +190,14 @@ h1 {
     font-style: italic;
     line-height: 0.6;
 }
-}
-
-@media screen and (max-width: 768px) {
-/* Navbar submenu alignement*/
-.dropdown-item {
-    text-align: center;
-}
-/* Social Links size and spacing*/
 #footer i {
     color: var(--menufootertext-color);
-    font-size: 2rem;
-    margin-right: 10px;
+    font-size: 4rem;
+    margin-right: 20px;
+
 }
-/* Footer Newsletter*/
-#footer .newsletter p {
-    font-size: 0.8rem;
+#footer h3 {
+    font-size: 1.8rem;
 }
 }
+
