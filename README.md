@@ -31,6 +31,7 @@ The website aims at promoting products and services related to educational drone
 ## I have lengthy comments to put regarding testing. I have been told that the deadline for submission, is for midday, today. I will submit it incomplete.
 ## I found the interaction with slack very unhelpful particularly on the last hours before submission of the project.
 ## I spent more than a bloody hour to debug the font awesome javascipt.
+## Migration issue with my project...
 
 #### Chrome Lighthouse:
 
