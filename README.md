@@ -1,4 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![the-flying-nerds-logo](https://github.com/user-attachments/assets/aa0497bc-4c5e-4f33-a08c-e9faadb1ded5)
 
 Welcome CodInst,
 
