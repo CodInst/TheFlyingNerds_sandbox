@@ -17,9 +17,11 @@ Text – Roboto Flex
     --menufootertext-color: #ffffff;
     --highlight-color: #EAD615;
     /* background Color */
-    --boxbackground-color: rgb(200, 201, 204, .9); /* #c8c9cc grey */
-    --contrasting-color:#1a4b82; /* dark blue */
-    }
+    --boxbackground-color: rgb(200, 201, 204, .9);
+    /* #c8c9cc grey */
+    --contrasting-color: #1a4b82;
+    /* dark blue */
+}
 
 /*  -----------------Global styles ----------------- */
 /* Body - Font and Color */
@@ -54,6 +56,7 @@ body {
     font-weight: 700;
     font-size: 1.2rem;
 }
+
 .sub-heading {
     color: #000000;
     font-family: var(--font-textbody);
@@ -73,12 +76,13 @@ body {
 }
 
 #menu .navbar-brand a:hover {
-    color: initial; /* Takes initial value of the property */
+    color: initial;
+    /* Takes initial value of the property */
 }
 
 /* Navbar Submenu background color & submenu alignement*/
 .dropdown-menu {
-	--bs-dropdown-bg: var(--contrasting-color);
+    --bs-dropdown-bg: var(--contrasting-color);
     --bs-dropdown-link-hover-bg: none;
     --bs-dropdown-link-hover-color: var(--highlight-color);
 }
@@ -158,7 +162,7 @@ h1 {
 }
 
 #hardware .card-img-overlay {
-	padding-top: 2px;
+    padding-top: 2px;
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -167,18 +171,19 @@ h1 {
 }
 
 #hardware .card-title {
-	font-weight: bold;
-	font-size: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 
-/* Button form, Button Return, Button book and subscribe*/
+/* Button form, Button Return, Button book, subscribe and button Nav on Ecosystem section*/
 .custombutton-filled {
     border: 2px solid white;
     background-color: var(--contrasting-color);
     color: var(--highlight-color);
     font-weight: bold;
 }
+
 .custombutton-filled:hover {
     border: 2px solid #2980B9;
     background-color: #2980B9;
@@ -186,72 +191,96 @@ h1 {
     font-weight: bold;
 }
 
+#ecosystem .nav-link {
+    --bs-nav-link-color: var(--contrasting-color);
+    font-weight: bold;
+
+}
+
+#ecosystem .nav-pills {
+    --bs-nav-pills-link-active-color: var(--highlight-color);
+    --bs-nav-pills-link-active-bg: var(--contrasting-color);
+}
+
+
+
+
 /* Card */
 #services .card-title,
 #services .card-footer {
-	font-weight: Bold;
+    font-weight: Bold;
 }
+
 #services a {
-	color: var(--contrasting-color);
+    color: var(--contrasting-color);
 }
+
 #services a:hover {
-	color: #2980B9;
+    color: #2980B9;
 }
 
 /* ----------------- Screen Re-sizing ----------------------- */
 /* Medium devices (576px and up) */
 @media screen and (min-width: 768px) {
-/* Logo - Font and size */
-.logotext {
-    font-size: 1.5rem;
-}
-/* Heading and sub-heading - Font and size */
-.headingtext {
-    font-family: var(--font-logomenuheading);
-    font-weight: 700;
-    font-size: 2rem;
-}
 
-.sub-heading {
-    color: #000000;
-    font-family: var(--font-textbody);
-    font-weight: 700;
-    font-size: 1.3rem;
-    font-style: italic;
-    line-height: 0.6;
-}
-#hardware .card-img-overlay {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: left;
-    font-size: 1.2rem;
-}
+    /* Logo - Font and size */
+    .logotext {
+        font-size: 1.5rem;
+    }
 
-#hardware .card-title {
-	font-weight: bold;
-	font-size: 1.2rem;
-}
-/* Footer */
-#footer i {
-    color: var(--menufootertext-color);
-    font-size: 4rem;
-    margin-right: 20px;
+    /* Heading and sub-heading - Font and size */
+    .headingtext {
+        font-family: var(--font-logomenuheading);
+        font-weight: 700;
+        font-size: 2rem;
+    }
 
-}
-#footer h3 {
-    font-size: 1.8rem;
-}
-/* Newsletter - Font and size */
-#footer p {
-    font-size: 1.2rem;
-}
-/* Navbar */
-#menu .dropdown-item {
-    text-align: left;
-}
-#services .card-body {
-	min-height: 219px;
-}
+    .sub-heading {
+        color: #000000;
+        font-family: var(--font-textbody);
+        font-weight: 700;
+        font-size: 1.3rem;
+        font-style: italic;
+        line-height: 0.6;
+    }
+
+    #hardware .card-img-overlay {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: left;
+        font-size: 1.2rem;
+    }
+
+    #hardware .card-title {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    /* Footer */
+    #footer i {
+        color: var(--menufootertext-color);
+        font-size: 4rem;
+        margin-right: 20px;
+
+    }
+
+    #footer h3 {
+        font-size: 1.8rem;
+    }
+
+    /* Newsletter - Font and size */
+    #footer p {
+        font-size: 1.2rem;
+    }
+
+    /* Navbar */
+    #menu .dropdown-item {
+        text-align: left;
+    }
+
+    #services .card-body {
+        min-height: 219px;
+    }
 }
