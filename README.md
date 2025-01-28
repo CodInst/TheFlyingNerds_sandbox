@@ -33,7 +33,9 @@ The website aims at promoting products and services related to educational drone
 
 ![image](https://github.com/user-attachments/assets/d2a6831b-532a-4ed2-9c04-1b12a2fa2eaf)
 
-Best practices issues 
+Best practices issues are addressed in the section 
+#### Unfixed Bug 
+
 ![image](https://github.com/user-attachments/assets/b6410ae1-1f4f-42ca-a9ea-4837b2e915ed)
 
 ## Validation
