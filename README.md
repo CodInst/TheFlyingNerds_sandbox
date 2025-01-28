@@ -8,7 +8,9 @@ The website aims at promoting products and services related to educational drone
 ![The Flying Nerds](https://github.com/user-attachments/assets/22c3f174-986a-47d1-8f15-03eb46bcb3d9)
 
 ## Features
-- An extensive, responsive and stick menu
+- An extensive, responsive and sticky menu
+  ![image](https://github.com/user-attachments/assets/fb0744e1-865c-4434-9b72-66680367cc60)
+
 - A picture and video gallery
 - A contact page with a google map and a form
 - A newsletter subscription field
