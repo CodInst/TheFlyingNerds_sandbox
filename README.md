@@ -33,14 +33,25 @@ The website aims at promoting products and services related to educational drone
 
 ![image](https://github.com/user-attachments/assets/d2a6831b-532a-4ed2-9c04-1b12a2fa2eaf)
 
+Best practices issues 
+![image](https://github.com/user-attachments/assets/b6410ae1-1f4f-42ca-a9ea-4837b2e915ed)
+
 ## Validation
 
 
 ## Unfixed Bug
 
+-Font Awesome: The javascript "plug" works on and off.
+
+Test environment
+![image](https://github.com/user-attachments/assets/8f7c4a99-ba80-4745-80db-be176c4b6295)
+
+Once deployed
+
+
 ## Credits
 
-All pictures dislayed are property of @TheCreativeNerds.ie (Me).
+All pictures displayed and used are property of @TheCreativeNerds.ie (Me).
 
-Initially purchased with a commercial licence and re-worked graphically.
+Initially purchased with a commercial licence and re-worked graphically for consumption.
 
