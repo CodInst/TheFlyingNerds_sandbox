@@ -2,6 +2,8 @@
 
 # The Flying Nerds
 
+The Flying Nerds is about what it takes to build, to acquire, to own and to fly a drone.
+The website aims at promoting products and services related to educational drones.
 
 ## Gitpod Reminders
 
