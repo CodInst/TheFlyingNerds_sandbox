@@ -41,5 +41,6 @@ The website aims at promoting products and services related to educational drone
 ## Credits
 
 All pictures dislayed are property of @TheCreativeNerds.ie (Me).
+
 Initially purchased with a commercial licence and re-worked graphically.
 
