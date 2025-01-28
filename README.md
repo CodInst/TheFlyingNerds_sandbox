@@ -27,7 +27,10 @@ The website aims at promoting products and services related to educational drone
 ![image](https://github.com/user-attachments/assets/0e6f8ff2-7b58-4a33-8959-87c87d4a7572)
 
 
-## Testing
+## Comments: Testing
+## I have lengthy comments to put regarding testing. I have been told that the deadline for submission, is for midday, today. I will submit it incomplete.
+## I found the interaction with slack very unhelpful particularly on the last hours before submission of the project.
+## I spent more than a bloody hour to debug the font awesome javascipt.
 
 #### Chrome Lighthouse:
 
@@ -40,6 +43,7 @@ Best practices issues are addressed in the section
 
 ## Validation
 
+W3C Html and CSS
 
 ## Unfixed Bug
 
@@ -48,7 +52,7 @@ Best practices issues are addressed in the section
 Test environment
 ![image](https://github.com/user-attachments/assets/8f7c4a99-ba80-4745-80db-be176c4b6295)
 
-Once deployed
+Once deployed,
 
 
 ## Credits
