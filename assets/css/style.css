@@ -245,13 +245,13 @@ h1 {
 }
 /* Newsletter - Font and size */
 #footer p {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 /* Navbar */
 #menu .dropdown-item {
     text-align: left;
 }
-}
 #services .card-body {
 	min-height: 219px;
+}
 }
