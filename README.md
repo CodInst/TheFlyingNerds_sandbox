@@ -108,24 +108,47 @@ Additionally, most of the pages were divided into 2 sections: an Introductory se
 
 <a align="right">[Return Top](#table-of-contents)</a>
 
-## Features
--A distinctive and customised logo (See above).
+# Features
 
-- An extensive, responsive, colourful and sticky menu:
+**-Logo**<br>
+A distinctive and customised logo<br>
+![Logo](https://github.com/user-attachments/assets/aa0497bc-4c5e-4f33-a08c-e9faadb1ded5)
 
-![image](https://github.com/user-attachments/assets/1fa13efc-b656-4e07-9d71-26037874b340)
+**-Menu**<br>
+An extensive and responsive menu:<br>
+![Menu](https://github.com/user-attachments/assets/35087969-8396-4789-bf5e-0c3b0092ef13)
 
-- A picture and video gallery:
+**-Pages**<br>
+An extensive, responsive and colourful website: The website combined <strong>HTML, CSS and bootstrap</strong><br>
+The website contains <strong>six pages</strong>:<br>
+ - A landing page:<br>
+![Landing Page](https://github.com/user-attachments/assets/4ac240f3-beef-46d5-96ac-d01c106f89bc)
 
-![image](https://github.com/user-attachments/assets/d886eba6-d682-4a6c-b924-850d6c54b8b3)
+ - A picture and video gallery:<br>
+![Gallery](https://github.com/user-attachments/assets/b051e95e-9b59-4b3a-b65b-d2d866f71499)
 
-- A contact page with a google map and a form:
+ - A contact page with a google map and a form:<br>
+![Contact](https://github.com/user-attachments/assets/9fc92049-c24c-411d-947f-1e414b65014e)
 
-![image](https://github.com/user-attachments/assets/9fc92049-c24c-411d-947f-1e414b65014e)
+ - A newsletter subscription field with a modal pop up:<br>
+![Newsletter](https://github.com/user-attachments/assets/0e6f8ff2-7b58-4a33-8959-87c87d4a7572)
 
-- A newsletter subscription field with a modal pop up:
+ - A page showcasing my services:<br>
+![Services](https://github.com/user-attachments/assets/de10d741-0cde-450c-be2f-9e807fce140c)
 
-![image](https://github.com/user-attachments/assets/0e6f8ff2-7b58-4a33-8959-87c87d4a7572)
+**-Mobile Responsiveness**<br>
+The website is built for mobile users<br>
+![Mobile Page 1](https://github.com/user-attachments/assets/6cd5bd10-135a-42b1-ba39-d813d5234ca5)<br>
+
+![Mobile Page 2](https://github.com/user-attachments/assets/62ea186f-c523-4b38-9334-21936849adf9)<br>
+
+<a align="right">[Return Top](#table-of-contents)</a>
+
+
+
+
+
+
 
 
 ## Comments: Testing
