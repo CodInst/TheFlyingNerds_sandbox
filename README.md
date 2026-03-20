@@ -9,7 +9,8 @@
 3. <a>[Deployment](#deployment)</a>
 4. <a>[Design Draft](#design-draft)</a>
 5. <a>[Design Final](#design-final)</a>
-6. <a>[Colours](#colours)</a> 
+6. <a>[Colours](#colours)</a>
+8. <a>[Fonts](#fonts)</a>
 7. <a>[Features](#features)</a>
 8. <a>[Codes](#codes)</a>
 9. <a>[Testing](#testing)</a>
@@ -91,13 +92,24 @@ Additionally, most of the pages were divided into 2 sections: an Introductory se
   - ![#ead615](https://placehold.co/15x15/ead615/ead615.png) `#ead615`
 
 **-Background colour**
-  - ![#c8c9cc](https://placehold.co/15x15/c8c9cc/c8c9cc.png) `#c8c9cc`
+  - ![#c8c9cc](https://placehold.co/15x15/c8c9cc/c8c9cc.png) `rgb(200, 201, 204, .9)`
 
 **-Two main colours for fonts**
   - ![#000000](https://placehold.co/15x15/000000/000000.png) `#000000`
   - ![#FFFFFF](https://placehold.co/15x15/FFFFFF/FFFFFF.png) `#FFFFFF`
 
 <a align="right">[Return Top](#table-of-contents)</a>
+
+# Fonts
+
+**Two main fonts were used:**
+
+
+
+<a align="right">[Return Top](#table-of-contents)</a>
+
+
+
 
 ## Features
 -A distinctive and customised logo (See above).
