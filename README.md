@@ -1,9 +1,38 @@
+# The Flying Nerds
+
 ![the-flying-nerds-logo](https://github.com/user-attachments/assets/aa0497bc-4c5e-4f33-a08c-e9faadb1ded5)
 
-# The Flying Nerds
+# Table of Contents
+
+1. <a>[About](#about)</a>
+2. <a>[Live Project](#live-project)</a>
+3. <a>[Deployment](#deployment)</a>
+4. <a>[Design](#design)</a>
+5. <a>[Colours](#colours)</a> 
+6. <a>[Features](#features)</a>
+7. <a>[Codes](#codes)</a>
+8. <a>[Testing](#testing)</a>
+      - <a>[Testing with W3C HTML](#testing-with-w3c-html)</a>
+      - <a>[Testing with W3C CSS](#testing-with-w3c-css)</a>
+      - <a>[Testing with Chrome Lighthouse](#testing-with-chrome-lighthouse)</a>
+      - <a>[Testing JavaScript With Js Hint](#testing-javascript-with-js-hint)</a>
+      - <a>[Testing JavaScript With Chrome Console](#testing-javascript-with-chrome-console)</a>
+      - <a>[Testing Project With Sandbox](#testing-project-with-sandbox)</a>
+9. <a>[Project Revision and Manual Testing](#project-revision-and-manual-testing)</a>
+10. <a>[Credits](#credits)</a>
+
+# About
 
 The Flying Nerds is about what it takes to build, to acquire, to own and to fly a drone.
 The website aims at promoting products and services related to educational drones.
+
+
+
+
+
+
+
+
 
 ![The Flying Nerds](https://github.com/user-attachments/assets/22c3f174-986a-47d1-8f15-03eb46bcb3d9)
 
