@@ -49,7 +49,7 @@ Using Github and Microsoft Visual Code to deploy my project
 
 ### **Hosting**
 
-1. To start working on my website, I went onto Github and selected my repository named <strong>Money-Quiz</strong>.
+1. To start working on my website, I went onto Github and selected my repository named <strong>TheFlyingNerds_sandbox</strong>.
 2. I went to Settings > Pages
 3. I made sure the following settings were applied:
       - Source: 'Deploy from a branch' on the dropdown menu
@@ -57,6 +57,10 @@ Using Github and Microsoft Visual Code to deploy my project
       - Entered save
 
 ### **Deployment on Github**
+
+![Deployment Picture 1](<img width="643" height="190" alt="cap 1" src="https://github.com/user-attachments/assets/ea25f3fd-393a-4999-a6ea-6d63ec8cc876" />)
+![Deployment Picture 2](<img width="1287" height="313" alt="image" src="https://github.com/user-attachments/assets/071dc380-6027-4940-9c80-92fdc1ad20a0" />)
+
 
 <a align="right">[Return Top](#table-of-contents)</a>
 
