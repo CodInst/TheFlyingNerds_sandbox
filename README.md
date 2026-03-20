@@ -7,19 +7,20 @@
 1. <a>[About](#about)</a>
 2. <a>[Live Project](#live-project)</a>
 3. <a>[Deployment](#deployment)</a>
-4. <a>[Design](#design)</a>
-5. <a>[Colours](#colours)</a> 
-6. <a>[Features](#features)</a>
-7. <a>[Codes](#codes)</a>
-8. <a>[Testing](#testing)</a>
+4. <a>[Design Draft](#design-draft)</a>
+5. <a>[Design Final](#design-final)</a>
+6. <a>[Colours](#colours)</a> 
+7. <a>[Features](#features)</a>
+8. <a>[Codes](#codes)</a>
+9. <a>[Testing](#testing)</a>
       - <a>[Testing with W3C HTML](#testing-with-w3c-html)</a>
       - <a>[Testing with W3C CSS](#testing-with-w3c-css)</a>
       - <a>[Testing with Chrome Lighthouse](#testing-with-chrome-lighthouse)</a>
       - <a>[Testing JavaScript With Js Hint](#testing-javascript-with-js-hint)</a>
       - <a>[Testing JavaScript With Chrome Console](#testing-javascript-with-chrome-console)</a>
       - <a>[Testing Project With Sandbox](#testing-project-with-sandbox)</a>
-9. <a>[Project Revision and Manual Testing](#project-revision-and-manual-testing)</a>
-10. <a>[Credits](#credits)</a>
+10. <a>[Project Revision and Manual Testing](#project-revision-and-manual-testing)</a>
+11. <a>[Credits](#credits)</a>
 
 # About
 
@@ -63,8 +64,21 @@ Using Github and Microsoft Visual Code to deploy my project
 
 <a align="right">[Return Top](#table-of-contents)</a>
 
+# Design Draft
 
+An initial draft of the project was designed on <strong>Balsamiq Wireframes</strong>. It was an overscale project with lot of content and features.
+This draft contained a blog and a shop which were removed from the final version.
+Additionally, most of the pages were divided into 2 sections: an Introductory section and its associated section.
 
+![Balsamiq image 1](https://github.com/user-attachments/assets/1947d1de-7bbd-464b-8555-216692f5bece)
+
+![Balsamiq image 2](https://github.com/user-attachments/assets/e0740720-4769-4a06-92ad-3f5d930cda5c)
+
+![Balsamiq image 3](https://github.com/user-attachments/assets/1d83eea3-d60f-40f6-a9dc-03c4c66903b8)
+
+<a align="right">[Return Top](#table-of-contents)</a>
+
+# Design Final
 
 
 
