@@ -82,6 +82,23 @@ Additionally, most of the pages were divided into 2 sections: an Introductory se
 
 ![The Flying Nerds](https://github.com/user-attachments/assets/22c3f174-986a-47d1-8f15-03eb46bcb3d9)
 
+<a align="right">[Return Top](#table-of-contents)</a>
+
+# Colours
+
+**-Two main colours to contrast objects of the website, notably the menu, headers and buttons**
+  - ![#1a4b82](https://placehold.co/15x15/1a4b82/1a4b82.png) `#1a4b82`
+  - ![#ead615](https://placehold.co/15x15/ead615/ead615.png) `#ead615`
+
+**-Background colour**
+  - ![#c8c9cc](https://placehold.co/15x15/c8c9cc/c8c9cc.png) `#c8c9cc`
+
+**-Two main colours for fonts**
+  - ![#000000](https://placehold.co/15x15/000000/000000.png) `#000000`
+  - ![#FFFFFF](https://placehold.co/15x15/FFFFFF/FFFFFF.png) `#FFFFFF`
+
+<a align="right">[Return Top](#table-of-contents)</a>
+
 ## Features
 -A distinctive and customised logo (See above).
 
