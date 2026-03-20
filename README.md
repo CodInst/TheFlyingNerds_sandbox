@@ -67,8 +67,8 @@ Using Github and Microsoft Visual Code to deploy my project
 
 # Design Draft
 
-An initial draft of the project was designed on <strong>Balsamiq Wireframes</strong>. It was an overscale project with lot of content and features.
-This draft contained a blog and a shop which were removed from the final version.
+An initial draft of the project was designed on <strong>Balsamiq Wireframes</strong>.<br>
+It was an overscale project with lot of content and features. This draft contained a blog and a shop which were removed from the final version.<br>
 Additionally, most of the pages were divided into 2 sections: an Introductory section and its associated section.
 
 ![Balsamiq image 1](https://github.com/user-attachments/assets/1947d1de-7bbd-464b-8555-216692f5bece)
@@ -102,14 +102,11 @@ Additionally, most of the pages were divided into 2 sections: an Introductory se
 
 # Fonts
 
-**Two main fonts were used:**
-
-
+**Two main fonts were used:**<br>
+-Font for the logo, menu and headings: Google font called <strong><i>Goldman</i></strong><br>
+-Font for the body text: Google font called <strong><i>Roboto Flex</i></strong>
 
 <a align="right">[Return Top](#table-of-contents)</a>
-
-
-
 
 ## Features
 -A distinctive and customised logo (See above).
