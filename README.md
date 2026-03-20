@@ -34,6 +34,33 @@ The website aims at promoting products and services related to educational drone
 
 <a align="right">[Return Top](#table-of-contents)</a>
 
+# Deployment
+
+Using Github and Microsoft Visual Code to deploy my project
+
+### **My Repository**
+
+1. Created a new public local repository on my Github account, and copied the repository locally on my computer using Microsoft Visual Code to start building the website.
+2. Regularly and repeatedly, I committed my changes to my local repository with commands below. Each commit has its custom message.
+      - <strong>git add .</strong>
+      - <strong>git commit -m "Custom message"</strong>
+3. Finally pushing my commits to my remote repository by using the command below.
+      - <strong>git push</strong>
+
+### **Hosting**
+
+1. To start working on my website, I went onto Github and selected my repository named <strong>Money-Quiz</strong>.
+2. I went to Settings > Pages
+3. I made sure the following settings were applied:
+      - Source: 'Deploy from a branch' on the dropdown menu
+      - Branch: 'Main' and 'root' from the dropdown menus
+      - Entered save
+
+### **Deployment on Github**
+
+<a align="right">[Return Top](#table-of-contents)</a>
+
+
 
 
 
