@@ -80,13 +80,6 @@ Additionally, most of the pages were divided into 2 sections: an Introductory se
 
 # Design Final
 
-
-
-
-
-
-
-
 ![The Flying Nerds](https://github.com/user-attachments/assets/22c3f174-986a-47d1-8f15-03eb46bcb3d9)
 
 ## Features
