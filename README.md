@@ -210,18 +210,22 @@ I tested each webpage of the website. Below I highlighted what was Before and th
 ## Testing With Chrome Lighthouse
 
 My main focus was the accessibility score and keep it equal or above 90%.<br>
+-I ran the testing and made the following changes:<br>
+-I added an additional colour #e4ff05 to have contrast colour in the menu<br>
+-I added a title for the frame tag of google map<br>
+
 The pages <strong>"index.html"</strong>, <strong>about.html</strong> and <strong>workshop.html</strong> show a good score<br>
-![Page 1](https://github.com/user-attachments/assets/e19e5626-b11b-410d-bbd4-6bf32ed8b203)<br>
-![Page 2](https://github.com/user-attachments/assets/2d1e7c51-5f68-4ea6-b85c-ad5f8e11ac07)<br>
-![Page 3](https://github.com/user-attachments/assets/d5fbc8bd-43da-4340-bc1c-b679c3225896)<br><br>
+![Page 1](https://github.com/user-attachments/assets/0704a527-5f31-40de-ad02-962911b4093e)<br>
+![Page 2](https://github.com/user-attachments/assets/b699a17d-764c-4fec-9a68-e50321a5fcfe)<br>
+![Page 3](https://github.com/user-attachments/assets/76428539-0ecd-4a0a-ac17-bde112df4402)<br>
 
 <strong>The page "gallery.html"</strong><br>
-![Page 4]()<br>
+![Page 4](https://github.com/user-attachments/assets/0ac1960b-3df0-418d-a8b8-47c3278d69f0)<br>
 Comments:
 -The low score on <strong>Best Practices</strong> is due the cookies.
 
-<strong>The page "quiz.html"</strong><br>
-![Page 4]()<br>
+<strong>The page "contact.html"</strong><br>
+![Page 5](https://github.com/user-attachments/assets/fc4fb0a4-3467-4feb-beb7-56e6c8ce7c6a)<br>
 Comments:
 -The low score on <strong>Best Practices</strong> is due the cookies.
 
