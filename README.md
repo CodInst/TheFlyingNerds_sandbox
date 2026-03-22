@@ -170,7 +170,7 @@ I tested each webpage of the website. Below I highlighted what was Before and th
 -I removed the un-needed div tag line 90 or from the header<br>
 -I removed subLabel id from the modal<br>
 -I ignored the below error on all pages:<br>
-![General]() <br><br>
+![General](https://github.com/user-attachments/assets/8e093748-8d88-489e-8d4f-6dae30b07b72) <br><br>
 
 -<ins>Webpage</ins>: <strong>gallery.html</strong><br>
 <strong>Before</strong><br><br>
