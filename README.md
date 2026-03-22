@@ -157,7 +157,7 @@ The website is built for mobile users<br>
 
 I tested each webpage of the website. Below I highlighted what was Before and the corrective steps after.<br><br>
 -<ins>Webpage</ins>: <strong>index.html</strong><br>
-<strong>Before</strong><br><br>
+<strong>Before</strong><br>
 ![index.html](https://github.com/user-attachments/assets/88ad63b9-ffed-4e05-96b3-086314717cdc)
 <br>
 <strong>After</strong><br>
@@ -173,7 +173,7 @@ I tested each webpage of the website. Below I highlighted what was Before and th
 ![General](https://github.com/user-attachments/assets/8e093748-8d88-489e-8d4f-6dae30b07b72) <br><br>
 
 -<ins>Webpage</ins>: <strong>gallery.html</strong><br>
-<strong>Before</strong><br><br>
+<strong>Before</strong><br>
 ![index.html](https://github.com/user-attachments/assets/9c7540b7-f840-4ae2-993b-8fd799e1409a)
 <br>
 <strong>After</strong><br>
@@ -181,12 +181,11 @@ I tested each webpage of the website. Below I highlighted what was Before and th
 -I ignored the warning <strong>section lacks heading.</strong><br><br>
 
 -<ins>Webpage</ins>: <strong>workshop.html</strong><br>
-<strong>Before</strong><br><br>
-![index.html]()
+<strong>Before</strong><br>
+![index.html](https://github.com/user-attachments/assets/f2bee21d-53d3-48f1-9217-e8fd9c5113b7)
 <br>
 <strong>After</strong><br>
--I removed frameborder.<br>
--I ignored the warning <strong>section lacks heading.</strong><br><br>
+-I removed the trailing slashes.<br><br>
 
 <a align="right">[Return Top](#table-of-contents)</a>
 
