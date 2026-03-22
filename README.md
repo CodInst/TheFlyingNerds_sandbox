@@ -233,34 +233,18 @@ Comments:
 
 # Project Revision and Manual Testing
 
-The previous version of the project can be found at [Link](https://codinst.github.io/Money-Q/).<br>
--I proceeded with a manual testing and made multiple <strong>User-Experience</strong> improvements.<br>
-The testing brought about the following changes:<br>
-  - <strong>Removed 'Display Question' Button and Game Starts automatically</strong><br>
-  The purpose of changes below is to start the quiz once the name is entered without having to validate by clicking on a button.<br>
-  <strong>Line 89</strong>: removed the line from <em>quiz.html</em><br>  ` button id="display-question" class="btn btn-primary btn-sm">Display Question /button `<br>
-  <strong>Line 49</strong>: removed the line from <em>script.js</em> - Removed HTML input<br> ` document.getElementById('question').innerHTML = .... `<br>
-  <strong>Lines 86 & 91 </strong>: removed the line from <em>script.js</em> - Simplified the function to a normal function<br> ` displayQuestionButton.addEventListener("click", function() {})  `<br>
-  <strong>Line 118</strong>: added the line from <em>script.js</em> - The function ` displayQuestion(); ` is included within checkAnwser()<br>
-
-  - <strong>Removed Alert Boxes and Included HTML input</strong><br>
-  All alert boxes were removed and the feedback was sent to HTML input on the page.<br>
-  <strong>Line 104</strong>: removed the line from <em>script.js</em> - Alert Box removed<br> ` alert("The answer is correct."); `<br>
-  <strong>Line 107</strong>: removed the line from <em>script.js</em> - Alert Box removed<br> ` alert("You answered ${userAnswer}. The correct answer was ${valueRandomQuestion}."); `<br>
-  <strong>Line 71</strong>: removed the line from <em>script.js</em> - Alert Box removed<br> ` alert("You have been through all the questions"); `<br>
-  <strong>Line 105</strong>: added the line on <em>script.js</em> - HTML text of previously answered question<br> ` document.getElementById('answerToQuestion').innerHTML = "Correct, the anwser for... `<br>
-  <strong>Line 108</strong>: added the line on <em>script.js</em> - HTML text of previously answered question<br> ` document.getElementById('answerToQuestion').innerHTML = "Incorrect, the anwser for... `<br>
-  <strong>Lines 92 to 94</strong>: added the line on <em>quiz.html</em> - The question answered will be displayed below "check Answer" button<br> ` <div class="text-center"> <p  id="answerToQuestion"></p> </div> `<br>
-
-  - <strong>Safeguard</strong><br>
-  Each of two fields had their code improved to prevent the validation of the fields when only  the character space is used.<br>
- <strong>Line 47</strong>: changed the line on <em>script.js</em> - To check if the 'name' field contains only space<br> ` if (!specialChars.test(fullName) && (fullName.trim().length !== 0)) {} `<br>
-   <strong>Line 103</strong>: added the line on <em>script.js</em> - To check if the 'answer-box' field contains only a number<br> ` if (!Number.isNaN(userAnswer)){} `<br>
-   <strong>Lines 120</strong>: added the line on <em>script.js</em> - Else condition added<br>
-   <strong>Lines 121</strong>: added the line on <em>script.js</em>- HTML text if number is missing<br> ` document.getElementById('answerToQuestion').innerHTML =... `<br>
+Additionnal testing:<br>
+-I tested on the following browsers on windows environment: Chrome, Firefox, Ms Edge and Opera<br>
+-I tested on mobile environment: Samsung and iPhone.<br>
+-I was not able to test it Mac product<br>
+-I changed the font awesome from footer link (Script) to a header link across all pages.<br>
+-I changed Flyshop to Workshop on HTML across all pages.<br>
+-The Video Gallery, that initially contained two of my videos, was changed to a single video display.<br>
+Reason: The embedded link provided by YouTube for one of video was not working.<br>
+-Two webpages were added to return notification, one after submitting contact form and the other one after subscribing.<br>
+-The fields in the contact and subscription forms are required.
 
 <a align="right">[Return Top](#table-of-contents)</a>
-
 
 # Credits
 
