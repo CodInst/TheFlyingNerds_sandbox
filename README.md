@@ -207,47 +207,19 @@ I tested each webpage of the website. Below I highlighted what was Before and th
 
 <a align="right">[Return Top](#table-of-contents)</a>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Testing With Chrome Lighthouse
 
-<strong>.The page "index.html"</strong><br><br>
-![index.html](https://github.com/user-attachments/assets/f42e5f00-7c12-4dc6-bbc9-87914bee7f6c)<br><br>
-Comment: The colors used are intended.
+My main focus was the accessibility score and keep it equal or above 90%.<br>
+The pages <strong>"index.html"</strong>, <strong>about.html</strong> and <strong>workshop.html</strong> show a good score<br>
+![Page 1](https://github.com/user-attachments/assets/e19e5626-b11b-410d-bbd4-6bf32ed8b203)<br>
+![Page 2](https://github.com/user-attachments/assets/2d1e7c51-5f68-4ea6-b85c-ad5f8e11ac07)<br>
+![Page 3](https://github.com/user-attachments/assets/d5fbc8bd-43da-4340-bc1c-b679c3225896)<br><br>
 
-<strong>.The page "quiz.html</strong><br><br>
-![quiz.html](https://github.com/user-attachments/assets/073666a8-ba64-4339-9e61-f59dd829b65a)<br><br>
-Comment: The colors used are intended.
+<strong>The page "gallery.html</strong><br>
+
+
+<strong>The page "quiz.html</strong><br>
+
 
 <a align="right">[Return Top](#table-of-contents)</a>
 
