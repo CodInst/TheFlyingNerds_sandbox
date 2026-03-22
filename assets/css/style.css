@@ -17,7 +17,7 @@ Text – Roboto Flex
     --menufootertext-color: #ffffff;
     --highlight-color: #EAD615;
     /* background Color */
-    --boxbackground-color: rgb(200, 201, 204, .9);
+    --boxbackground-color: rgba(200, 204, 202, 0.9);
     /* #c8c9cc grey */
     --contrasting-color: #1a4b82;
     /* dark blue */
@@ -85,6 +85,11 @@ body {
     --bs-dropdown-bg: var(--contrasting-color);
     --bs-dropdown-link-hover-bg: none;
     --bs-dropdown-link-hover-color: var(--highlight-color);
+    --bs-dropdown-link-color: #e4ff05;
+}
+
+.navbar-nav {
+    --bs-navbar-color: #e4ff05;
 }
 
 .navbar-nav {
