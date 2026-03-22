@@ -159,7 +159,7 @@ The website is built for mobile users<br>
 ## Testing with W3C CSS
 
 <strong>.The stylesheet contains no error.</strong><br><br>
-![CSS Check](https://github.com/user-attachments/assets/e0d2c4f7-769e-42a8-aeb5-1140cc9ed7ea)
+![CSS Check](https://github.com/user-attachments/assets/a95a34e1-13de-4b2b-b5b9-41208aa4ec08)
 
 <a align="right">[Return Top](#table-of-contents)</a>
 
