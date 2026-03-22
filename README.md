@@ -155,17 +155,18 @@ The website is built for mobile users<br>
 
 ## Testing With W3C HTML
 
-I tested each webpage of the website. Before and after the correction<br>
- - Webpage: <strong>codinst.github.io/TheFlyingNerds_sandbox/index.html</strong>
+I tested each webpage of the website. Below I highlighted what was Before and the corrective steps after.<br>
+ - Webpage: <strong>index.html</strong><br>
 <strong>Before</strong><br><br>
-![index.html]()
+![index.html](https://github.com/user-attachments/assets/88ad63b9-ffed-4e05-96b3-086314717cdc)
 <br>
-<strong>After</strong><br><br>
--I removed un-needed div tag line 90 on the index.html
--I changed the card title header from h5 to h3
--I changed  the aria-labelledby on the lines 243 and 244 to pills-law-tab
--I removed subLabel id from the modal
-![index.html]()
+<strong>After</strong><br>
+-I removed un-needed div tag line 90 on the index.html<br>
+-I changed the card title header from h5 to h3<br>
+-I changed  the aria-labelledby on the lines 243 and 244 to pills-law-tab<br>
+-I removed subLabel id from the modal<br>
+
+
 
 <a align="right">[Return Top](#table-of-contents)</a>
 
