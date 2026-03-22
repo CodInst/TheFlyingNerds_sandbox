@@ -180,7 +180,42 @@ I tested each webpage of the website. Below I highlighted what was Before and th
 -I removed frameborder.<br>
 -I ignored the warning <strong>section lacks heading.</strong><br><br>
 
+-<ins>Webpage</ins>: <strong>workshop.html</strong><br>
+<strong>Before</strong><br><br>
+![index.html]()
+<br>
+<strong>After</strong><br>
+-I removed frameborder.<br>
+-I ignored the warning <strong>section lacks heading.</strong><br><br>
+
 <a align="right">[Return Top](#table-of-contents)</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
