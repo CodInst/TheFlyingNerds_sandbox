@@ -14,8 +14,8 @@
 7. <a>[Features](#features)</a>
 8. <a>[Codes](#codes)</a>
 9. <a>[Testing](#testing)</a>
-      - <a>[Testing with W3C HTML](#testing-with-w3c-html)</a>
       - <a>[Testing with W3C CSS](#testing-with-w3c-css)</a>
+      - <a>[Testing with W3C HTML](#testing-with-w3c-html)</a>
       - <a>[Testing with Chrome Lighthouse](#testing-with-chrome-lighthouse)</a>
       - <a>[Testing JavaScript With Js Hint](#testing-javascript-with-js-hint)</a>
       - <a>[Testing JavaScript With Chrome Console](#testing-javascript-with-chrome-console)</a>
@@ -146,22 +146,35 @@ The website is built for mobile users<br>
 
 # Testing
 
-## Testing With W3C HTML
-
-<strong>.The page "index.html" contains no error.</strong><br><br>
-![index.html](https://github.com/user-attachments/assets/0f131ba6-51d4-4273-8f6a-5f88c36db867)
-<br>
-<strong>.The page "quiz.html" contains no error.</strong><br><br>
-![quiz.html](https://github.com/user-attachments/assets/8251afb8-0900-4224-92e5-70b953a16a00)
-
-<a align="right">[Return Top](#table-of-contents)</a>
-
 ## Testing with W3C CSS
 
-<strong>.The stylesheet contains no error.</strong><br><br>
+<strong>The stylesheet contains no error.</strong><br><br>
 ![CSS Check](https://github.com/user-attachments/assets/a95a34e1-13de-4b2b-b5b9-41208aa4ec08)
 
 <a align="right">[Return Top](#table-of-contents)</a>
+
+## Testing With W3C HTML
+
+I tested each webpage of the website. Before and after the correction<br>
+ - Webpage: <strong>codinst.github.io/TheFlyingNerds_sandbox/index.html</strong>
+<strong>Before</strong><br><br>
+![index.html]()
+<br>
+<strong>After</strong><br><br>
+-I removed un-needed div tag line 90 on the index.html
+-I changed the card title header from h5 to h3
+-I changed  the aria-labelledby on the lines 243 and 244 to pills-law-tab
+-I removed subLabel id from the modal
+![index.html]()
+
+<a align="right">[Return Top](#table-of-contents)</a>
+
+
+
+
+
+
+
 
 ## Testing With Chrome Lighthouse
 
