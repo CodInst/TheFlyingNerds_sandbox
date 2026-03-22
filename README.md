@@ -144,6 +144,90 @@ The website is built for mobile users<br>
 
 <a align="right">[Return Top](#table-of-contents)</a>
 
+# Testing
+
+## Testing With W3C HTML
+
+<strong>.The page "index.html" contains no error.</strong><br><br>
+![index.html](https://github.com/user-attachments/assets/0f131ba6-51d4-4273-8f6a-5f88c36db867)
+<br>
+<strong>.The page "quiz.html" contains no error.</strong><br><br>
+![quiz.html](https://github.com/user-attachments/assets/8251afb8-0900-4224-92e5-70b953a16a00)
+
+<a align="right">[Return Top](#table-of-contents)</a>
+
+## Testing with W3C CSS
+
+<strong>.The stylesheet contains no error.</strong><br><br>
+![CSS Check](https://github.com/user-attachments/assets/a95a34e1-13de-4b2b-b5b9-41208aa4ec08)
+
+<a align="right">[Return Top](#table-of-contents)</a>
+
+## Testing With Chrome Lighthouse
+
+<strong>.The page "index.html"</strong><br><br>
+![index.html](https://github.com/user-attachments/assets/f42e5f00-7c12-4dc6-bbc9-87914bee7f6c)<br><br>
+Comment: The colors used are intended.
+
+<strong>.The page "quiz.html</strong><br><br>
+![quiz.html](https://github.com/user-attachments/assets/073666a8-ba64-4339-9e61-f59dd829b65a)<br><br>
+Comment: The colors used are intended.
+
+<a align="right">[Return Top](#table-of-contents)</a>
+
+## Testing JavaScript With Js Hint
+
+No error found, It contains only warnings.
+All semi-colons checked.<br><br>
+![JavaScript](https://github.com/user-attachments/assets/e555dd78-75c6-4ccc-ba07-96ccd754eaf2)
+
+<a align="right">[Return Top](#table-of-contents)</a>
+
+## Testing JavaScript With Chrome Console
+
+<strong>No error found</strong>
+
+<a align="right">[Return Top](#table-of-contents)</a>
+
+## Testing Project With Sandbox
+The project has been tested via a sandbox:
+
+https://codinst.github.io/Money-Q/<br>
+https://github.com/CodInst/Money-Q
+
+<a align="right">[Return Top](#table-of-contents)</a>
+
+# Project Revision and Manual Testing
+
+The previous version of the project can be found at [Link](https://codinst.github.io/Money-Q/).<br>
+-I proceeded with a manual testing and made multiple <strong>User-Experience</strong> improvements.<br>
+The testing brought about the following changes:<br>
+  - <strong>Removed 'Display Question' Button and Game Starts automatically</strong><br>
+  The purpose of changes below is to start the quiz once the name is entered without having to validate by clicking on a button.<br>
+  <strong>Line 89</strong>: removed the line from <em>quiz.html</em><br>  ` button id="display-question" class="btn btn-primary btn-sm">Display Question /button `<br>
+  <strong>Line 49</strong>: removed the line from <em>script.js</em> - Removed HTML input<br> ` document.getElementById('question').innerHTML = .... `<br>
+  <strong>Lines 86 & 91 </strong>: removed the line from <em>script.js</em> - Simplified the function to a normal function<br> ` displayQuestionButton.addEventListener("click", function() {})  `<br>
+  <strong>Line 118</strong>: added the line from <em>script.js</em> - The function ` displayQuestion(); ` is included within checkAnwser()<br>
+
+  - <strong>Removed Alert Boxes and Included HTML input</strong><br>
+  All alert boxes were removed and the feedback was sent to HTML input on the page.<br>
+  <strong>Line 104</strong>: removed the line from <em>script.js</em> - Alert Box removed<br> ` alert("The answer is correct."); `<br>
+  <strong>Line 107</strong>: removed the line from <em>script.js</em> - Alert Box removed<br> ` alert("You answered ${userAnswer}. The correct answer was ${valueRandomQuestion}."); `<br>
+  <strong>Line 71</strong>: removed the line from <em>script.js</em> - Alert Box removed<br> ` alert("You have been through all the questions"); `<br>
+  <strong>Line 105</strong>: added the line on <em>script.js</em> - HTML text of previously answered question<br> ` document.getElementById('answerToQuestion').innerHTML = "Correct, the anwser for... `<br>
+  <strong>Line 108</strong>: added the line on <em>script.js</em> - HTML text of previously answered question<br> ` document.getElementById('answerToQuestion').innerHTML = "Incorrect, the anwser for... `<br>
+  <strong>Lines 92 to 94</strong>: added the line on <em>quiz.html</em> - The question answered will be displayed below "check Answer" button<br> ` <div class="text-center"> <p  id="answerToQuestion"></p> </div> `<br>
+
+  - <strong>Safeguard</strong><br>
+  Each of two fields had their code improved to prevent the validation of the fields when only  the character space is used.<br>
+ <strong>Line 47</strong>: changed the line on <em>script.js</em> - To check if the 'name' field contains only space<br> ` if (!specialChars.test(fullName) && (fullName.trim().length !== 0)) {} `<br>
+   <strong>Line 103</strong>: added the line on <em>script.js</em> - To check if the 'answer-box' field contains only a number<br> ` if (!Number.isNaN(userAnswer)){} `<br>
+   <strong>Lines 120</strong>: added the line on <em>script.js</em> - Else condition added<br>
+   <strong>Lines 121</strong>: added the line on <em>script.js</em>- HTML text if number is missing<br> ` document.getElementById('answerToQuestion').innerHTML =... `<br>
+
+<a align="right">[Return Top](#table-of-contents)</a>
+
+
 # Credits
 
 All pictures displayed and used are property of @TheCreativeNerds.ie (Me).<br>
