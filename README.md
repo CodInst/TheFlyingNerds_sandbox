@@ -215,11 +215,15 @@ The pages <strong>"index.html"</strong>, <strong>about.html</strong> and <strong
 ![Page 2](https://github.com/user-attachments/assets/2d1e7c51-5f68-4ea6-b85c-ad5f8e11ac07)<br>
 ![Page 3](https://github.com/user-attachments/assets/d5fbc8bd-43da-4340-bc1c-b679c3225896)<br><br>
 
-<strong>The page "gallery.html</strong><br>
+<strong>The page "gallery.html"</strong><br>
+![Page 4]()<br>
+Comments:
+-The low score on <strong>Best Practices</strong> is due the cookies.
 
-
-<strong>The page "quiz.html</strong><br>
-
+<strong>The page "quiz.html"</strong><br>
+![Page 4]()<br>
+Comments:
+-The low score on <strong>Best Practices</strong> is due the cookies.
 
 <a align="right">[Return Top](#table-of-contents)</a>
 
