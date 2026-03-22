@@ -196,14 +196,19 @@ I tested each webpage of the website. Below I highlighted what was Before and th
 
 -<ins>Webpage</ins>: <strong>contact.html</strong><br>
 <strong>Before</strong><br>
-![General](https://github.com/user-attachments/assets/e137cd83-3a8a-48d5-8bbb-3f4f06594916) <br><br>
+![General](https://github.com/user-attachments/assets/e137cd83-3a8a-48d5-8bbb-3f4f06594916)
 <br>
 <strong>After</strong><br>
--No change made on this page.<br><br>
+-I correct 'current' on the line 73<br><br>
+
+-<ins>Webpages</ins>: <strong>success-subscribe.html</strong> and <strong>success-form.html</strong><br>
+<strong>Before</strong><br>
+![Form and SUb](https://github.com/user-attachments/assets/8e093748-8d88-489e-8d4f-6dae30b07b72)
+<br>
+<strong>After</strong><br>
+-No change made on these pages.<br>
 
 <a align="right">[Return Top](#table-of-contents)</a>
-
-
 
 
 
