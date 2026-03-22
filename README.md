@@ -17,9 +17,6 @@
       - <a>[Testing with W3C CSS](#testing-with-w3c-css)</a>
       - <a>[Testing with W3C HTML](#testing-with-w3c-html)</a>
       - <a>[Testing with Chrome Lighthouse](#testing-with-chrome-lighthouse)</a>
-      - <a>[Testing JavaScript With Js Hint](#testing-javascript-with-js-hint)</a>
-      - <a>[Testing JavaScript With Chrome Console](#testing-javascript-with-chrome-console)</a>
-      - <a>[Testing Project With Sandbox](#testing-project-with-sandbox)</a>
 10. <a>[Project Revision and Manual Testing](#project-revision-and-manual-testing)</a>
 11. <a>[Credits](#credits)</a>
 
@@ -251,28 +248,6 @@ Comment: The colors used are intended.
 <strong>.The page "quiz.html</strong><br><br>
 ![quiz.html](https://github.com/user-attachments/assets/073666a8-ba64-4339-9e61-f59dd829b65a)<br><br>
 Comment: The colors used are intended.
-
-<a align="right">[Return Top](#table-of-contents)</a>
-
-## Testing JavaScript With Js Hint
-
-No error found, It contains only warnings.
-All semi-colons checked.<br><br>
-![JavaScript](https://github.com/user-attachments/assets/e555dd78-75c6-4ccc-ba07-96ccd754eaf2)
-
-<a align="right">[Return Top](#table-of-contents)</a>
-
-## Testing JavaScript With Chrome Console
-
-<strong>No error found</strong>
-
-<a align="right">[Return Top](#table-of-contents)</a>
-
-## Testing Project With Sandbox
-The project has been tested via a sandbox:
-
-https://codinst.github.io/Money-Q/<br>
-https://github.com/CodInst/Money-Q
 
 <a align="right">[Return Top](#table-of-contents)</a>
 
